@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-tge",
+  "version": "1.0.0",
+  "description": "Opinionated ESLint configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgenovese/eslint-config-tge.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Thierry Genovese <tgenovese@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tgenovese/eslint-config-tge/issues"
+  },
+  "homepage": "https://github.com/tgenovese/eslint-config-tge#readme"
+}

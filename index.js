@@ -1,11 +1,12 @@
 // ESLint configuration
+'use strict';
 
 module.exports = {
   extends: [
     'eslint:recommended'
   ],
   rules: {
-    /* Possible Errors Section */
+    // Possible Errors Section
     'no-extra-parens': [2, 'all', {conditionalAssign: false}],
     'valid-jsdoc': [1, {
       prefer: {
@@ -14,7 +15,7 @@ module.exports = {
       requireReturn: false
     }],
 
-    /* Best Practices Section */
+    // Best Practices Section
     'array-callback-return': 2,
     'curly': [2, 'multi-line', 'consistent'],
     'default-case': 2,
@@ -57,25 +58,25 @@ module.exports = {
     'no-warning-comments': [1, {terms: ['todo', 'fixme'], location: 'anywhere'}],
     'no-with': 2,
     'radix': [2, 'always'],
-    'wrap-iife': [2, "inside"],
+    'wrap-iife': [2, 'inside'],
 
-    /* Strict Mode Section */
+    // Strict Mode Section
     'strict': [2, 'safe'],
 
-    /* Variables Section */
+    // Variables Section
     'no-label-var': 2,
     'no-shadow-restricted-names': 2,
     'no-undef-init': 2,
     'no-use-before-define': [2, 'nofunc'],
 
-    /* Node.js and CommonJS Section */
+    // Node.js and CommonJS Section
     'callback-return': [2, ['callback', 'cb', 'next', 'done']],
     'global-require': 2,
     'handle-callback-err': [2, '^.*(e|E)rr'],
     'no-new-require': 2,
     'no-path-concat': 2,
 
-    /* Stylistic Issues Section */
+    // Stylistic Issues Section
     'array-bracket-spacing': [2, 'never'],
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs'],

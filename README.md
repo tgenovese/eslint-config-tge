@@ -1,4 +1,4 @@
-# eslint-config-tgnvs
+# eslint-config-tge
 
 Opinionated ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html)
 

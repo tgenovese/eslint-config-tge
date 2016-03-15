@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Opinionated ESLint configuration",
   "main": "index.js",
+  "scripts": {
+    "test": "eslint -c index.js --no-eslintrc --env node ./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tgenovese/eslint-config-tge.git"
@@ -11,10 +14,16 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "Thierry Genovese <tgenovese@users.noreply.github.com>",
+  "author": "Thierry Genovese",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tgenovese/eslint-config-tge/issues"
   },
-  "homepage": "https://github.com/tgenovese/eslint-config-tge#readme"
+  "homepage": "https://github.com/tgenovese/eslint-config-tge#readme",
+  "devDependencies": {
+    "eslint": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=2"
+  }
 }
